@@ -42,11 +42,11 @@ ul {
     list-style-type: none;
 }
 
-.bg-color, .bg-txt {
+.bg-style {
     color: #F4F4FD;
     background-color: #2E2F42; 
 }
 
-.input:focus {
+.input:focus, input:active {
     background-color: chocolate;
   }
