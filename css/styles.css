@@ -1,13 +1,17 @@
 body {
-    font-family: Roboto, Raleway sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", "Raleway" sans-serif;
+    color: #434455;
     background-color: #ffffff;
     font-size: 20px;
     line-height: 24px;
 }
 
-.logo-size  {
+.logo {
+    font: Raleway;
     font-size: 18px;
+    color: #4d5ae5;
+    line-height: 1,117;
+    letter-spacing: 0,03em;
 }
 
 a {
@@ -32,6 +36,7 @@ a {
 }
 
 .main-txt {
+    color: #ffffff;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -42,11 +47,20 @@ ul {
     list-style-type: none;
 }
 
-.bg-style {
+.bg-clr {
     color: #F4F4FD;
     background-color: #2E2F42; 
 }
 
-.input:focus, input:active {
+.link:hover, .link:focus {
     background-color: chocolate;
   }
+
+.second-clr {
+    color: #F4F4FD;
+}
+
+.logo-part-2 {
+    color: #2E2F42;
+
+}
