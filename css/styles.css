@@ -104,10 +104,12 @@ a:active {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-style: normal;
 }
 
-.order-buttons {
+.order-button {
     color: #ffffff;
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -115,13 +117,14 @@ a:active {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer; 
 }
 
 button:hover {
     background-color: #404BBF;
 }
 
-button:active {
+button:focus {
     background-color: #404BBF;
 }
 .ot-bg {
