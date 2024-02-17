@@ -4,14 +4,26 @@ body {
     background-color: #ffffff;
     font-size: 20px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .logo {
-    font: Raleway;
+    font-family: "Relaway" sans-serif;
     font-size: 18px;
     color: #4d5ae5;
-    line-height: 1,117;
-    letter-spacing: 0,03em;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo-part-2 {
+    color: #2E2F42;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 3%;
 }
 
 a {
@@ -19,9 +31,11 @@ a {
 }
 
 .main-nav {
-    color: #434455;
+    color: #2E2F42;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 
 .second-heading {
@@ -33,6 +47,8 @@ a {
 
 .typical-paragraphs {
     font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2%;
 }
 
 .main-txt {
@@ -52,14 +68,31 @@ ul {
     background-color: #2E2F42; 
 }
 
-.link:hover, .link:focus {
-    background-color: chocolate;
+a:hover{
+    color: #404bbf;
   }
+
+a:focus {
+    color: #404bbf;
+}
+
+a:active {
+    color: #404bbf;
+}
 
 .second-clr {
     color: #F4F4FD;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 3%;
 }
 
-.logo-part-2 {
-    color: #2E2F42;
+.Contacts-links {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2%;
 }
+
