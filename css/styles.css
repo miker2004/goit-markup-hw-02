@@ -27,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+.nav-style {
+    font-style: normal;
+}
+
 .main-nav {
     color: #2E2F42;
     font-style: normal;
