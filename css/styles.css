@@ -5,11 +5,11 @@ body {
 }
 
 .logo {
-    font-family: "Relaway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #4d5ae5;
     line-height: 1.17;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -114,7 +114,7 @@ a:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
 }
 
 button:hover {
@@ -126,5 +126,9 @@ button:active {
 }
 .ot-bg {
     background-color: #F4F4FD;
+}
+
+.img-bg {
+    background-color: #ffffff;
 }
 
